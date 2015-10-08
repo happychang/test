@@ -163,9 +163,9 @@ function initialize() {
         map.data.revertStyle();
         map.data.overrideStyle(event.feature, {fillColor: 'white'});
 
-        if( $('input[name="map-type"]:checked').val() == 3 )
+        if( $('input[name="map-type"]:checked').val() == 3 && event.feature.getProperty('spread') )
         {
-            if( event.feature.getProperty('spread') )
+//            if( event.feature.getProperty('spread') && )
             {
                 var date = new Date(event.feature.getProperty('spread'));
                 if( $('input[name="map-div"]:checked').val() == 1 )
@@ -178,6 +178,7 @@ function initialize() {
                 }
 		density = ", 第" + (date.getTime() - spreadTime)/86400000 + "天";
             }
+/*
             else
             {
                 if( $('input[name="map-div"]:checked').val() == 1 )
@@ -192,6 +193,7 @@ function initialize() {
                 }
                 density = "";
             }
+*/
         }
         else
         {
@@ -573,10 +575,10 @@ function showDateMap(clickedDate, cunli) {
                             else
                             {
 				var area = value.getProperty('area');
-                                var count3 = count+val[1];
+                                var count4 = count+val[1];
                                 if( count < 5 || (count/area) < 16 )
                                 {
-                                    if( count3 >= 5 && (count3/area) >= 16 )
+                                    if( count4 >= 5 && (count4/area) >= 16 )
                                     {
                                         var spread = new Date(val[0]).getTime();
                                         value.setProperty('spread', spread);
