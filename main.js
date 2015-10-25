@@ -14,10 +14,16 @@ var green1 = "#00FF00";
 var green2 = "#00CC00";
 var yellow1 = "#FFFF00";
 var yellow2 = "#DDDD00";
+var yellow3 = "#BBBB00";
+var yellow4 = "#999900";
 var orange1 = "#FF9900";
 var orange2 = "#DD6600";
+var orange3 = "#BB5500";
+var orange4 = "#994400";
 var red1 = "#FF0000";
-var red2 = "#CC0000";
+var red2 = "#DD0000";
+var red3 = "#BB0000";
+var red4 = "#990000";
 var purple1 = "#A020F0";
 
 var days7 = 86400000*7;
