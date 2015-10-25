@@ -16,11 +16,11 @@ var green1 = "#30FF30";
 var green2 = "#00FF00";
 var green3 = "#00DD00";
 var green4 = "#00BB00";
-var yellow1 = "#FFFF30";
+var yellow1 = "#FFFF40";
 var yellow2 = "#FFFF00";
 var yellow3 = "#DDDD00";
 var yellow4 = "#C0C000";
-var orange1 = "#FF8830";
+var orange1 = "#FF9933";
 var orange2 = "#FF8000";
 var orange3 = "#DD7000";
 var orange4 = "#C06000";
@@ -388,20 +388,20 @@ function initialize() {
 	    			'<span class="colorBox" style="background-color: ' + red4        + ';"></span>1' +
 				'<span class="colorBox" style="background-color: ' + red3        + ';"></span>2' +
 				'<span class="colorBox" style="background-color: ' + red2        + ';"></span>3' +
-				'<span class="colorBox" style="background-color: ' + red1        + ';"></span>4');
-	    $('#color2').html('<span class="colorBox" style="background-color: '   + orange4     + ';"></span>5' +
+				'<span class="colorBox" style="background-color: ' + red1        + ';"></span>4' +
+	    			'<span class="colorBox" style="background-color: ' + orange4     + ';"></span>5' +
 				'<span class="colorBox" style="background-color: ' + orange3     + ';"></span>6' +
 				'<span class="colorBox" style="background-color: ' + orange2     + ';"></span>7' +
-				'<span class="colorBox" style="background-color: ' + orange1     + ';"></span>8' +
-				'<span class="colorBox" style="background-color: ' + yellow4     + ';"></span>9' +
+				'<span class="colorBox" style="background-color: ' + orange1     + ';"></span>8');
+	    $('#color2').html('<span class="colorBox" style="background-color:   ' + yellow4     + ';"></span>9' +
 				'<span class="colorBox" style="background-color: ' + yellow3     + ';"></span>10' +
 				'<span class="colorBox" style="background-color: ' + yellow2     + ';"></span>11' +
-				'<span class="colorBox" style="background-color: ' + yellow1     + ';"></span>12');
-            $('#color3').html('<span class="colorBox" style="background-color: '   + green4      + ';"></span>13' +
+				'<span class="colorBox" style="background-color: ' + yellow1     + ';"></span>12' +
+           			'<span class="colorBox" style="background-color: ' + green4      + ';"></span>13' +
 				'<span class="colorBox" style="background-color: ' + green3      + ';"></span>14' +
 				'<span class="colorBox" style="background-color: ' + green2      + ';"></span>15' +
-				'<span class="colorBox" style="background-color: ' + green1      + ';"></span>16' +
-				'<span class="colorBox" style="background-color: ' + blue4       + ';"></span>17' +
+				'<span class="colorBox" style="background-color: ' + green1      + ';"></span>16');
+	    $('#color3').html('<span class="colorBox" style="background-color: '   + blue4       + ';"></span>17' +
 				'<span class="colorBox" style="background-color: ' + blue3       + ';"></span>18' +
 				'<span class="colorBox" style="background-color: ' + blue2       + ';"></span>19' +
 				'<span class="colorBox" style="background-color: ' + blue1       + ';"></span>20' +
