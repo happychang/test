@@ -70,19 +70,26 @@ function ColorBar3(value, start)
 {
 	var day = (value - start)/86400000;
 	if(value == 0 )			return "white"
-	else if(day >= 92)		return pink1
-	else if(day >= 85)		return pink2
-	else if(day >= 78)		return yellow1
-	else if(day >= 71)		return yellow2
-	else if(day >= 64)		return yellow3
-	else if(day >= 57)		return yellow4
-	else if(day >= 50)		return orange1
-	else if(day >= 43)		return orange2
-	else if(day >= 36)		return orange3
-	else if(day >= 29)		return orange4
-	else if(day >= 22)		return red1
-	else if(day >= 15)		return red2
-	else if(day >= 8)		return red3
-	else if(day >= 1)		return red4
+	else if(day > 140)		return gray1
+	else if(day > 133)		return blue1
+	else if(day > 126)		return blue2
+	else if(day > 119)		return blue3
+	else if(day > 112)		return blue4
+	else if(day > 105)		return green1
+	else if(day > 98)		return green2
+	else if(day > 91)		return green3
+	else if(day > 84)		return green4
+	else if(day > 77)		return yellow1
+	else if(day > 70)		return yellow2
+	else if(day > 63)		return yellow3
+	else if(day > 56)		return yellow4
+	else if(day > 49)		return orange1
+	else if(day > 42)		return orange2
+	else if(day > 35)		return orange3
+	else if(day > 28)		return orange4
+	else if(day > 21)		return red1
+	else if(day > 14)		return red2
+	else if(day > 7)		return red3
+	else if(day > 0)		return red4
 	else				return purple1
 }
